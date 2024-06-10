@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Ground : MonoBehaviour
 {
-    [SerializeField] private float _mapSpeed = 15f;
+    [SerializeField] private float _mapSpeed = 13f;
 
     private void Update()
     {
