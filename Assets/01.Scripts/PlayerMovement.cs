@@ -5,9 +5,14 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float _speed = 4f;
+    //[SerializeField] private float _speed = 4f;
 
-    [SerializeField] private float _jump = 5f;
+    [SerializeField] private float _jump = 10f;
+
+    [SerializeField] private float _jump2 = 15f;
+
+    int _jumpCount = 0;
+
 
     
 
@@ -29,17 +34,59 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _rigid.velocity = Vector2.right.normalized * _speed;
+        //_rigid.velocity = Vector2.right.normalized * _speed;
     }
 
     public void TryJump()
     {
         if (Input.GetKeyDown(KeyCode.Space))
-           Jump();
+        {
+            JumpTime();
+        }
+
+        
     }
 
     public void Jump()
     {
         _rigid.AddForce(Vector2.up.normalized * _jump, ForceMode2D.Impulse); // ¼ø°£ÀûÀ¸·Î °­ÇÑ ÈûÀ» ÁÜ
+        
+    }
+
+    public void JumpTime()
+    {
+        if (_jumpCount >= 2)
+        {
+            DontJump();
+        }
+        else if (_jumpCount < 2 && _jumpCount >= 0)
+        {
+            if (_jumpCount == 0)
+            {
+                Jump();
+                _rigid.velocity = new Vector3(0f, _jump, 0f);
+                _jumpCount += 1;
+            }
+            else if (_jumpCount == 1)
+            {
+                Jump();
+                _rigid.velocity = new Vector3(0f, _jump2, 0f);
+                _jumpCount += 1;
+            }
+
+        }
+    }
+
+    private void DontJump()
+    {
+        _rigid.velocity = Vector3.zero;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            _jumpCount = 0;
+        }
     }
 }
