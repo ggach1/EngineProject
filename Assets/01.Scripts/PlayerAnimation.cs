@@ -13,4 +13,6 @@ public class PlayerAnimation : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
     }
+
+
 }

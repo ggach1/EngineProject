@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private float _jump = 10f;
 
-    [SerializeField] private float _jump2 = 15f;
+    [SerializeField] private float _jump2 = 35f;
 
     int _jumpCount = 0;
 
@@ -88,5 +88,12 @@ public class PlayerMovement : MonoBehaviour
         {
             _jumpCount = 0;
         }
+
+        /*if (collision.gameObject.CompareTag("DontJump"))
+        {
+            _jumpCount = 0;
+
+            DontJump();
+        }*/
     }
 }
