@@ -8,6 +8,6 @@ public class Ground : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(-_mapSpeed * Time.deltaTime, 0, 0);
+        transform.Translate(-_mapSpeed * Time.deltaTime * 1.75f, 0, 0);
     }
 }
