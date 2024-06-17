@@ -6,21 +6,43 @@ public class PlayerAnimation : MonoBehaviour
 {
     private Animator _animator;
 
-    private PlayerMovement _playerM;
-
-    private readonly int xHash = Animator.StringToHash("X");
-    private readonly int yHash = Animator.StringToHash("Y");
-
     private void Awake()
     {
         _animator = GetComponent<Animator>();
+    }
 
-        _playerM = GetComponent<PlayerMovement>();
+    private void Start()
+    {
+        RunAnim();
+    }
+
+    public void RunAnim()
+    {
+        _animator.SetBool("isJump", false);
+        _animator.SetBool("isDoubleJump", false);
+        _animator.SetBool("isFall", false);
+        _animator.SetBool("isRun", true);
     }
 
     public void JumpAnim()
     {
-        _animator.SetBool(yHash, true);
+        _animator.SetBool("isDoubleJump", false);
+        _animator.SetBool("isFall", false);
+        _animator.SetBool("isRun", false);
+        _animator.SetBool("isJump", true);
+    }
+
+    public void DoubleJumpAnim()
+    {
+        _animator.SetBool("isJump", false);
+        _animator.SetBool("isDoubleJump", true);
+    }
+
+    public void FallAnim()
+    {
+        _animator.SetBool("isJump", false);
+        _animator.SetBool("isDoubleJump", false);
+        _animator.SetBool("isFall", true);
     }
 
 
