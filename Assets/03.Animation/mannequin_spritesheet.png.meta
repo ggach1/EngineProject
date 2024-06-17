@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,12 +126,12 @@ TextureImporter:
       name: mannequin_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 590.7692
-        width: 48
-        height: 49.23077
+        x: 15
+        y: 591
+        width: 18
+        height: 26
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,12 +147,12 @@ TextureImporter:
       name: mannequin_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 590.7692
-        width: 48
-        height: 49.23077
+        x: 58
+        y: 591
+        width: 23
+        height: 26
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,12 +168,12 @@ TextureImporter:
       name: mannequin_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 96
-        y: 590.7692
-        width: 48
-        height: 49.23077
+        x: 109
+        y: 591
+        width: 17
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,12 +189,12 @@ TextureImporter:
       name: mannequin_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 144
-        y: 590.7692
-        width: 48
-        height: 49.23077
+        x: 159
+        y: 591
+        width: 19
+        height: 26
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -210,12 +210,12 @@ TextureImporter:
       name: mannequin_spritesheet_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 541.7692
-        width: 48
-        height: 49.23077
+        x: 15
+        y: 542
+        width: 19
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: mannequin_spritesheet_5
       rect:
         serializedVersion: 2
-        x: 48
-        y: 541.7692
-        width: 48
-        height: 49.23077
+        x: 66
+        y: 542
+        width: 15
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -252,12 +252,12 @@ TextureImporter:
       name: mannequin_spritesheet_6
       rect:
         serializedVersion: 2
-        x: 96
-        y: 541.7692
-        width: 48
-        height: 49.23077
+        x: 116
+        y: 542
+        width: 10
+        height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -273,12 +273,12 @@ TextureImporter:
       name: mannequin_spritesheet_7
       rect:
         serializedVersion: 2
-        x: 144
-        y: 541.7692
-        width: 48
-        height: 49.23077
+        x: 163
+        y: 542
+        width: 15
+        height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -294,12 +294,12 @@ TextureImporter:
       name: mannequin_spritesheet_8
       rect:
         serializedVersion: 2
-        x: 192
-        y: 541.7692
-        width: 48
-        height: 49.23077
+        x: 208
+        y: 542
+        width: 18
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -315,12 +315,12 @@ TextureImporter:
       name: mannequin_spritesheet_9
       rect:
         serializedVersion: 2
-        x: 240
-        y: 541.7692
-        width: 48
-        height: 49.23077
+        x: 258
+        y: 542
+        width: 15
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -336,12 +336,12 @@ TextureImporter:
       name: mannequin_spritesheet_10
       rect:
         serializedVersion: 2
-        x: 288
-        y: 541.7692
-        width: 48
-        height: 49.23077
+        x: 308
+        y: 542
+        width: 10
+        height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -357,12 +357,12 @@ TextureImporter:
       name: mannequin_spritesheet_11
       rect:
         serializedVersion: 2
-        x: 336
-        y: 541.7692
-        width: 48
-        height: 49.23077
+        x: 355
+        y: 542
+        width: 14
+        height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -378,12 +378,12 @@ TextureImporter:
       name: mannequin_spritesheet_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 492.76923
-        width: 48
-        height: 49.23077
+        x: 13
+        y: 495
+        width: 23
+        height: 26
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -399,12 +399,12 @@ TextureImporter:
       name: mannequin_spritesheet_13
       rect:
         serializedVersion: 2
-        x: 48
-        y: 492.76923
-        width: 48
-        height: 49.23077
+        x: 63
+        y: 495
+        width: 18
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -420,12 +420,12 @@ TextureImporter:
       name: mannequin_spritesheet_14
       rect:
         serializedVersion: 2
-        x: 96
-        y: 492.76923
-        width: 48
-        height: 49.23077
+        x: 114
+        y: 495
+        width: 14
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -441,12 +441,12 @@ TextureImporter:
       name: mannequin_spritesheet_15
       rect:
         serializedVersion: 2
-        x: 144
-        y: 492.76923
-        width: 48
-        height: 49.23077
+        x: 158
+        y: 495
+        width: 21
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -462,12 +462,12 @@ TextureImporter:
       name: mannequin_spritesheet_16
       rect:
         serializedVersion: 2
-        x: 192
-        y: 492.76923
-        width: 48
-        height: 49.23077
+        x: 208
+        y: 495
+        width: 15
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -483,12 +483,12 @@ TextureImporter:
       name: mannequin_spritesheet_17
       rect:
         serializedVersion: 2
-        x: 240
-        y: 492.76923
-        width: 48
-        height: 49.23077
+        x: 258
+        y: 495
+        width: 15
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -504,12 +504,12 @@ TextureImporter:
       name: mannequin_spritesheet_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 443.76923
-        width: 48
-        height: 49.23077
+        x: 14
+        y: 447
+        width: 20
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -525,12 +525,12 @@ TextureImporter:
       name: mannequin_spritesheet_19
       rect:
         serializedVersion: 2
-        x: 48
-        y: 443.76923
-        width: 48
-        height: 49.23077
+        x: 63
+        y: 457
+        width: 18
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -546,12 +546,12 @@ TextureImporter:
       name: mannequin_spritesheet_20
       rect:
         serializedVersion: 2
-        x: 96
-        y: 443.76923
-        width: 48
-        height: 49.23077
+        x: 110
+        y: 454
+        width: 16
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -567,12 +567,12 @@ TextureImporter:
       name: mannequin_spritesheet_21
       rect:
         serializedVersion: 2
-        x: 0
-        y: 394.76923
-        width: 48
-        height: 49.23077
+        x: 14
+        y: 417
+        width: 20
+        height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -588,12 +588,12 @@ TextureImporter:
       name: mannequin_spritesheet_22
       rect:
         serializedVersion: 2
-        x: 48
-        y: 394.76923
-        width: 48
-        height: 49.23077
+        x: 65
+        y: 414
+        width: 13
+        height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -609,12 +609,12 @@ TextureImporter:
       name: mannequin_spritesheet_23
       rect:
         serializedVersion: 2
-        x: 96
-        y: 394.76923
-        width: 48
-        height: 49.23077
+        x: 110
+        y: 417
+        width: 20
+        height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -630,12 +630,12 @@ TextureImporter:
       name: mannequin_spritesheet_24
       rect:
         serializedVersion: 2
-        x: 144
-        y: 394.76923
-        width: 48
-        height: 49.23077
+        x: 161
+        y: 414
+        width: 13
+        height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -651,12 +651,12 @@ TextureImporter:
       name: mannequin_spritesheet_25
       rect:
         serializedVersion: 2
-        x: 0
-        y: 345.76923
-        width: 48
-        height: 49.23077
+        x: 13
+        y: 352
+        width: 20
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -672,12 +672,12 @@ TextureImporter:
       name: mannequin_spritesheet_26
       rect:
         serializedVersion: 2
-        x: 48
-        y: 345.76923
-        width: 48
-        height: 49.23077
+        x: 59
+        y: 351
+        width: 26
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -693,12 +693,12 @@ TextureImporter:
       name: mannequin_spritesheet_27
       rect:
         serializedVersion: 2
-        x: 96
-        y: 345.76923
-        width: 48
-        height: 49.23077
+        x: 108
+        y: 351
+        width: 25
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -714,12 +714,12 @@ TextureImporter:
       name: mannequin_spritesheet_28
       rect:
         serializedVersion: 2
-        x: 144
-        y: 345.76923
-        width: 48
-        height: 49.23077
+        x: 159
+        y: 351
+        width: 19
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -735,12 +735,12 @@ TextureImporter:
       name: mannequin_spritesheet_29
       rect:
         serializedVersion: 2
-        x: 0
-        y: 296.76923
-        width: 48
-        height: 49.23077
+        x: 15
+        y: 302
+        width: 19
+        height: 35
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -756,12 +756,12 @@ TextureImporter:
       name: mannequin_spritesheet_30
       rect:
         serializedVersion: 2
-        x: 48
-        y: 296.76923
-        width: 48
-        height: 49.23077
+        x: 59
+        y: 302
+        width: 25
+        height: 33
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -777,12 +777,12 @@ TextureImporter:
       name: mannequin_spritesheet_31
       rect:
         serializedVersion: 2
-        x: 96
-        y: 296.76923
-        width: 48
-        height: 49.23077
+        x: 111
+        y: 302
+        width: 30
+        height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -798,12 +798,12 @@ TextureImporter:
       name: mannequin_spritesheet_32
       rect:
         serializedVersion: 2
-        x: 144
-        y: 296.76923
-        width: 48
-        height: 49.23077
+        x: 159
+        y: 302
+        width: 25
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -819,12 +819,12 @@ TextureImporter:
       name: mannequin_spritesheet_33
       rect:
         serializedVersion: 2
-        x: 0
-        y: 247.76923
-        width: 48
-        height: 49.23077
+        x: 15
+        y: 255
+        width: 19
+        height: 35
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -840,12 +840,12 @@ TextureImporter:
       name: mannequin_spritesheet_34
       rect:
         serializedVersion: 2
-        x: 48
-        y: 247.76923
-        width: 48
-        height: 49.23077
+        x: 58
+        y: 255
+        width: 26
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -861,12 +861,12 @@ TextureImporter:
       name: mannequin_spritesheet_35
       rect:
         serializedVersion: 2
-        x: 96
-        y: 247.76923
-        width: 48
-        height: 49.23077
+        x: 111
+        y: 255
+        width: 34
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -882,12 +882,12 @@ TextureImporter:
       name: mannequin_spritesheet_36
       rect:
         serializedVersion: 2
-        x: 144
-        y: 247.76923
-        width: 48
-        height: 49.23077
+        x: 159
+        y: 255
+        width: 32
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -903,12 +903,12 @@ TextureImporter:
       name: mannequin_spritesheet_37
       rect:
         serializedVersion: 2
-        x: 0
-        y: 198.76923
-        width: 48
-        height: 49.23077
+        x: 13
+        y: 207
+        width: 18
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -924,12 +924,12 @@ TextureImporter:
       name: mannequin_spritesheet_38
       rect:
         serializedVersion: 2
-        x: 48
-        y: 198.76923
-        width: 48
-        height: 49.23077
+        x: 59
+        y: 207
+        width: 19
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -945,12 +945,12 @@ TextureImporter:
       name: mannequin_spritesheet_39
       rect:
         serializedVersion: 2
-        x: 96
-        y: 198.76923
-        width: 48
-        height: 49.23077
+        x: 108
+        y: 207
+        width: 18
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -966,12 +966,12 @@ TextureImporter:
       name: mannequin_spritesheet_40
       rect:
         serializedVersion: 2
-        x: 0
-        y: 149.76923
-        width: 48
-        height: 49.23077
+        x: 19
+        y: 159
+        width: 10
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -987,12 +987,12 @@ TextureImporter:
       name: mannequin_spritesheet_41
       rect:
         serializedVersion: 2
-        x: 48
-        y: 149.76923
-        width: 48
-        height: 49.23077
+        x: 65
+        y: 159
+        width: 14
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1008,12 +1008,12 @@ TextureImporter:
       name: mannequin_spritesheet_42
       rect:
         serializedVersion: 2
-        x: 96
-        y: 149.76923
-        width: 48
-        height: 49.23077
+        x: 113
+        y: 159
+        width: 13
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1029,12 +1029,12 @@ TextureImporter:
       name: mannequin_spritesheet_43
       rect:
         serializedVersion: 2
-        x: 144
-        y: 149.76923
-        width: 48
-        height: 49.23077
+        x: 161
+        y: 159
+        width: 15
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1050,12 +1050,12 @@ TextureImporter:
       name: mannequin_spritesheet_44
       rect:
         serializedVersion: 2
-        x: 192
-        y: 149.76923
-        width: 48
-        height: 49.23077
+        x: 204
+        y: 159
+        width: 27
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1071,12 +1071,12 @@ TextureImporter:
       name: mannequin_spritesheet_45
       rect:
         serializedVersion: 2
-        x: 240
-        y: 149.76923
-        width: 48
-        height: 49.23077
+        x: 253
+        y: 159
+        width: 26
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1092,12 +1092,12 @@ TextureImporter:
       name: mannequin_spritesheet_46
       rect:
         serializedVersion: 2
-        x: 0
-        y: 100.769226
-        width: 48
-        height: 49.23077
+        x: 15
+        y: 117
+        width: 15
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1113,12 +1113,12 @@ TextureImporter:
       name: mannequin_spritesheet_47
       rect:
         serializedVersion: 2
-        x: 48
-        y: 100.769226
-        width: 48
-        height: 49.23077
+        x: 24
+        y: 71
+        width: 10
+        height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1134,12 +1134,12 @@ TextureImporter:
       name: mannequin_spritesheet_48
       rect:
         serializedVersion: 2
-        x: 96
-        y: 100.769226
-        width: 48
-        height: 49.23077
+        x: 68
+        y: 77
+        width: 15
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1155,12 +1155,12 @@ TextureImporter:
       name: mannequin_spritesheet_49
       rect:
         serializedVersion: 2
-        x: 144
-        y: 101
-        width: 48
-        height: 49
+        x: 116
+        y: 77
+        width: 14
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1176,13 +1176,13 @@ TextureImporter:
       name: mannequin_spritesheet_50
       rect:
         serializedVersion: 2
-        x: 192
-        y: 100.769226
-        width: 48
-        height: 49.23077
+        x: 159
+        y: 77
+        width: 19
+        height: 25
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 16, z: 0, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1197,12 +1197,12 @@ TextureImporter:
       name: mannequin_spritesheet_51
       rect:
         serializedVersion: 2
-        x: 0
-        y: 51.76923
-        width: 48
-        height: 49.23077
+        x: 211
+        y: 86
+        width: 15
+        height: 26
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1210,90 +1210,6 @@ TextureImporter:
       bones: []
       spriteID: 486440a29db93e244908b186464fde70
       internalID: -1521482467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mannequin_spritesheet_52
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 51.76923
-        width: 48
-        height: 49.23077
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: beace58dc18addf489865ddcb999b52c
-      internalID: -1080356712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mannequin_spritesheet_53
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 51.76923
-        width: 48
-        height: 49.23077
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d415d3daa7e758841b3d7e12f8ac724d
-      internalID: -1337514623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mannequin_spritesheet_54
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 56
-        width: 48
-        height: 49
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e742b0d2d4d805a428622d14f31c39d4
-      internalID: -1053651210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mannequin_spritesheet_55
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 68
-        width: 48
-        height: 49
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 17, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94c9639d423cc64438087f1fea4a0995
-      internalID: 726129896
       vertices: []
       indices: 
       edges: []
@@ -1357,10 +1273,6 @@ TextureImporter:
       mannequin_spritesheet_5: 1991929290
       mannequin_spritesheet_50: 1524383963
       mannequin_spritesheet_51: -1521482467
-      mannequin_spritesheet_52: -1080356712
-      mannequin_spritesheet_53: -1337514623
-      mannequin_spritesheet_54: -1053651210
-      mannequin_spritesheet_55: 726129896
       mannequin_spritesheet_6: 723300365
       mannequin_spritesheet_7: 39332688
       mannequin_spritesheet_8: -11630082
