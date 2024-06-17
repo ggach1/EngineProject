@@ -6,11 +6,14 @@ public class PlayerAnimation : MonoBehaviour
 {
     private Animator _animator;
 
-    private PlayerMovement _playerM;
-
     private void Awake()
     {
         _animator = GetComponent<Animator>();
+    }
+
+    private void Start()
+    {
+        RunAnim();
     }
 
     public void RunAnim()
@@ -23,6 +26,8 @@ public class PlayerAnimation : MonoBehaviour
 
     public void JumpAnim()
     {
+        _animator.SetBool("isDoubleJump", false);
+        _animator.SetBool("isFall", false);
         _animator.SetBool("isRun", false);
         _animator.SetBool("isJump", true);
     }

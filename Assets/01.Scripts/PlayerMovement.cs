@@ -14,11 +14,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float _jump2 = 55f;
 
     int _jumpCount = 0;
-    
 
     private Rigidbody2D _rigid;
-
-    private PlayerInput _input;
 
     private PlayerAnimation _animation;
 
@@ -33,12 +30,7 @@ public class PlayerMovement : MonoBehaviour
     {
         TryJump();
 
-        _animation.RunAnim();
-    }
-
-    private void FixedUpdate()
-    {
-        //_rigid.velocity = Vector2.right.normalized * _speed;
+        //_animation.RunAnim();
     }
 
     public void TryJump()
@@ -57,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump()
     {
-        _rigid.AddForce(Vector2.up.normalized * _jump, ForceMode2D.Impulse); // 순간적으로 강한 힘을 줌     
+        _rigid.AddForce(Vector2.up.normalized * _jump, ForceMode2D.Impulse); // 순간적으로 강한 힘을 줌 
     }
 
     public void JumpTime()
