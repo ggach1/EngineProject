@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
 public class Button : MonoBehaviour
@@ -25,5 +27,19 @@ public class Button : MonoBehaviour
     private IEnumerator EnterDelay()
     {
         yield return new WaitForSeconds(_delay);
+    }
+
+    public void Back()
+    {
+        StartCoroutine(EnterDelay());
+
+        SceneManager.LoadScene(_sceneName);
+    }
+
+    public void StageOne()
+    {
+        StartCoroutine(EnterDelay());
+
+         SceneManager.LoadScene(_sceneName);
     }
 }
