@@ -10,7 +10,7 @@ public class Coins : MonoBehaviour
         {
             Destroy(gameObject);
 
-            Debug.Log("코인 얻음");
+            //Debug.Log("코인 얻음");
         }
     }
 }
