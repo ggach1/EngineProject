@@ -12,16 +12,12 @@ public class Button : MonoBehaviour
 
     private float _delay = 1.5f;
 
-    public void Enter()
-    {
-        StartCoroutine(EnterDelay());
+    [SerializeField] private GameObject _panelOne;
 
-        SceneManager.LoadScene(_sceneName);
-    }
 
-    public void Quit()
+    private void Start()
     {
-        Application.Quit();
+        _panelOne?.SetActive(false);
     }
 
     private IEnumerator EnterDelay()
@@ -38,8 +34,18 @@ public class Button : MonoBehaviour
 
     public void StageOne()
     {
+        _panelOne.SetActive(true);
+    }
+
+    public void Yes()
+    {
         StartCoroutine(EnterDelay());
 
-         SceneManager.LoadScene(_sceneName);
+        SceneManager.LoadScene(_sceneName);
+    }
+
+    public void No()
+    {
+        _panelOne?.SetActive(false);
     }
 }
