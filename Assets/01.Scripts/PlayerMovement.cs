@@ -15,6 +15,8 @@ public class PlayerMovement : MonoBehaviour
 
     int _jumpCount = 0;
 
+    private float _delaytime = 1.5f;
+
     private Rigidbody2D _rigid;
 
     private PlayerAnimation _animation;
@@ -62,7 +64,8 @@ public class PlayerMovement : MonoBehaviour
                 _rigid.velocity = new Vector3(0f, _jump, 0f);
                 _jumpCount += 1;
                 _animation.JumpAnim();
-                
+                StartCoroutine(Delaytime());
+                _animation.FallAnim();
             }
             else if (_jumpCount == 1)
             {
@@ -71,6 +74,8 @@ public class PlayerMovement : MonoBehaviour
                 _jumpCount += 1;
                 _animation.DoubleJumpAnim();
                 //DontJump();
+                StartCoroutine(Delaytime());
+                _animation.FallAnim();
             }
 
         }
@@ -85,6 +90,10 @@ public class PlayerMovement : MonoBehaviour
         _animation.FallAnim();
     }
 
+    public IEnumerator Delaytime()
+    {
+        yield return new WaitForSeconds(_delaytime);
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
