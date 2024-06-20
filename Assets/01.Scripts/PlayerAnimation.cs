@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class PlayerAnimation : MonoBehaviour
@@ -34,15 +35,18 @@ public class PlayerAnimation : MonoBehaviour
 
     public void DoubleJumpAnim()
     {
-        _animator.SetBool("isJump", false);
         _animator.SetBool("isDoubleJump", true);
+        _animator.SetBool("isFall", false);
+        _animator.SetBool("isRun", false);
+        _animator.SetBool("isJump", false);
     }
 
     public void FallAnim()
     {
-        _animator.SetBool("isJump", false);
         _animator.SetBool("isDoubleJump", false);
         _animator.SetBool("isFall", true);
+        _animator.SetBool("isRun", false);
+        _animator.SetBool("isJump", false);
     }
 
 

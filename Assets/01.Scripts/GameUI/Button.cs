@@ -17,12 +17,7 @@ public class Button : MonoBehaviour
 
     private void Start()
     {
-        _panelOne?.SetActive(false);
-    }
-
-    private IEnumerator EnterDelay()
-    {
-        yield return new WaitForSeconds(_delay);
+        _panelOne.SetActive(false);
     }
 
     public void Back()
@@ -34,18 +29,23 @@ public class Button : MonoBehaviour
 
     public void StageOne()
     {
+        StartCoroutine(EnterDelay());
+
         _panelOne.SetActive(true);
     }
 
     public void Yes()
     {
-        StartCoroutine(EnterDelay());
-
         SceneManager.LoadScene(_sceneName);
     }
 
     public void No()
     {
         _panelOne?.SetActive(false);
+    }
+
+    private IEnumerator EnterDelay()
+    {
+        yield return new WaitForSeconds(_delay);
     }
 }
