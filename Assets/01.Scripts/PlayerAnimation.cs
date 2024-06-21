@@ -20,7 +20,6 @@ public class PlayerAnimation : MonoBehaviour
     public void RunAnim()
     {
         _animator.SetBool("isJump", false);
-        _animator.SetBool("isDoubleJump", false);
         _animator.SetBool("isFall", false);
         _animator.SetBool("isRun", true);
     }
@@ -36,8 +35,6 @@ public class PlayerAnimation : MonoBehaviour
     public void DoubleJumpAnim()
     {
         _animator.SetBool("isDoubleJump", true);
-        _animator.SetBool("isFall", false);
-        _animator.SetBool("isRun", false);
         _animator.SetBool("isJump", false);
     }
 
@@ -45,6 +42,15 @@ public class PlayerAnimation : MonoBehaviour
     {
         _animator.SetBool("isDoubleJump", false);
         _animator.SetBool("isFall", true);
+        _animator.SetBool("isRun", false);
+        _animator.SetBool("isJump", false);
+    }
+
+    public void DeadAnim()
+    {
+        _animator.SetBool("isDead", true);
+        _animator.SetBool("isDoubleJump", false);
+        _animator.SetBool("isFall", false);
         _animator.SetBool("isRun", false);
         _animator.SetBool("isJump", false);
     }
