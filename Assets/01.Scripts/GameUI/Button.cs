@@ -29,8 +29,7 @@ public class Button : MonoBehaviour
 
     public void StageOne()
     {
-        StartCoroutine(EnterDelay());
-
+        // StartCoroutine(EnterDelay());
         _panelOne.SetActive(true);
     }
 

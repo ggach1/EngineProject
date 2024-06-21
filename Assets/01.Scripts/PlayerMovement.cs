@@ -41,18 +41,14 @@ public class PlayerMovement : MonoBehaviour
         {
             JumpTime();
         }
-        else
+        /*else
         {
             _animation.RunAnim();
-        }
+        }*/
 
         
     }
 
-    public void Jump()
-    {
-        _rigid.AddForce(Vector2.up.normalized * _jump, ForceMode2D.Impulse); // 순간적으로 강한 힘을 줌 
-    }
 
     public void JumpTime()
     {
@@ -81,11 +77,16 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    public void Jump()
+    {
+        _rigid.AddForce(Vector2.up.normalized * _jump, ForceMode2D.Impulse); // 순간적으로 강한 힘을 줌 
+    }
+
     private void DontJump()
     {
         _rigid.velocity = Vector3.down * 1.75f;
 
-        Debug.Log("점프하지마");
+        //Debug.Log("점프하지마");
 
         _animation.FallAnim();
     }
@@ -100,6 +101,13 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             _jumpCount = 0;
+
+            _animation.RunAnim();
+        }
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            _animation.DeadAnim();
         }
 
         /*if (collision.gameObject.CompareTag("DontJump"))
