@@ -4,11 +4,20 @@ using UnityEngine;
 
 public class Destroy : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D collision)
+    [SerializeField] private PlayerMovement _playerMovement;
+
+    private void Awake()
     {
-        if (!collision.gameObject.CompareTag("Player"))
+        _playerMovement = FindObjectOfType<PlayerMovement>();
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
         {
-            Destroy(collision.gameObject);
+            _playerMovement.OnPanel();
+
+            Debug.Log("플레이어 만남");
         }
     }
 }

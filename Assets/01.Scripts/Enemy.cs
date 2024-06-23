@@ -1,14 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D collision)
+    [SerializeField] private PlayerMovement _playerMovement;
+
+    private void Awake()
+    {
+        _playerMovement = FindObjectOfType<PlayerMovement>();
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Time.timeScale = 0;
+            _playerMovement.OnPanel();
+
+            Debug.Log("플레이어 감지");
         }
     }
 }
