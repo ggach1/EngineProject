@@ -61,14 +61,13 @@ public class PlayerMovement : MonoBehaviour
                 _jumpCount += 1;
                 _animation.JumpAnim();
                 StartCoroutine(Delaytime());
-                _animation.FallAnim();
+                //_animation.FallAnim();
             }
             else if (_jumpCount == 1)
             {
                 Jump();
                 _rigid.velocity = new Vector3(0f, _jump2, 0f);
                 _jumpCount += 1;
-                _animation.DoubleJumpAnim();
                 //DontJump();
                 StartCoroutine(Delaytime());
                 _animation.FallAnim();
