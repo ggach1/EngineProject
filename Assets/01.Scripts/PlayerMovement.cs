@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEditor.Rendering;
+//using UnityEditor.SearchService;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -12,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float _jump = 10f;
 
     [SerializeField] private float _jump2 = 55f;
+
+    [SerializeField] private GameObject _endpanel;
 
     int _jumpCount = 0;
 
@@ -90,6 +93,11 @@ public class PlayerMovement : MonoBehaviour
         _animation.FallAnim();
     }
 
+    public void OnPanel()
+    {
+        _endpanel.SetActive(true);
+    }
+
     public IEnumerator Delaytime()
     {
         yield return new WaitForSeconds(_delaytime);
@@ -104,10 +112,17 @@ public class PlayerMovement : MonoBehaviour
             _animation.RunAnim();
         }
 
-        if (collision.gameObject.CompareTag("Enemy"))
-        {
-            _animation.DeadAnim();
-        }
+        //if (collision.gameObject.CompareTag("Enemy"))
+        //{
+        //    OnPanel();
+
+        //    Debug.Log("에너미 감지");
+        //}
+
+        //if (collision.gameObject.CompareTag("DeadZone"))
+        //{
+        //    OnPanel();
+        //}
 
         /*if (collision.gameObject.CompareTag("DontJump"))
         {
@@ -116,5 +131,6 @@ public class PlayerMovement : MonoBehaviour
             DontJump();
         }*/
     }
+
 
 }

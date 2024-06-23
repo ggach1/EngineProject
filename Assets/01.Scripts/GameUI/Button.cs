@@ -43,6 +43,11 @@ public class Button : MonoBehaviour
         _panelOne?.SetActive(false);
     }
 
+    public void Lobby()
+    {
+        SceneManager.LoadScene(_sceneName);
+    }
+
     private IEnumerator EnterDelay()
     {
         yield return new WaitForSeconds(_delay);

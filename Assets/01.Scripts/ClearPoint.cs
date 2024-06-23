@@ -5,15 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class ClearPoint : MonoBehaviour
 {
-    [SerializeField] private string _scenename;
-
-    public void BackSelect()
-    {
-        SceneManager.LoadScene(_scenename);
-    }
+    [SerializeField] private GameObject _endPanel;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        BackSelect();
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            _endPanel.SetActive(true);
+        }
     }
 }
